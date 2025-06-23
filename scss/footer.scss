@@ -1,0 +1,38 @@
+@use 'variables';
+
+.container-footer {
+    background-color: variables.$bg-footer;
+    border-bottom: 1px solid variables.$bc-footer;
+}
+
+.title-footer {
+    border-bottom: 1px solid variables.$bc-footer;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: variables.$links-color;
+    font-size: variables.$links-size;
+}
+
+.contacts-footer {
+    background-color: variables.$bg-footer;
+}
+
+.rights-background {
+    background-color: variables.$bg-color;
+}
+
+.text-footer {
+    color: variables.$links-color;
+    font-size: variables.$links-size;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.icon {
+    border: 2px solid variables.$icon-bg;
+}
+
+

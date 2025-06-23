@@ -1,0 +1,188 @@
+@use "variables";
+
+.bg__header {
+    background-color: variables.$bg-color;
+}
+
+.title {
+    font-weight: variables.$title-font;
+    font-size: variables.$nav-title-top-size;
+    line-height: 100%;
+    letter-spacing: 3.6px;
+    color: variables.$nav-color-top-title;
+    padding-left: 20px;
+}
+
+
+.links {
+    text-decoration: none;
+    color: variables.$nav-color-top;
+}
+
+.contacts {
+    align-self: center;
+}
+
+.call-to-action {
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    background-color: variables.$bg-color;
+}
+
+.title-main {
+    color: variables.$nav-color-bottom-title;
+    font-family: Roboto;
+    font-weight: variables.$title-font;
+    font-size: variables.$nav-size-bottom-title;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.text-main {
+    color: variables.$text-color;
+    font-family: Roboto;
+    font-weight: variables.$main-font;
+    font-size: variables.$main-size;
+    line-height: 20px;
+    letter-spacing: 0%;
+}
+
+.main-links {
+    text-decoration: none;
+    color: variables.$nav-color-top;
+    font-weight: variables.$main-font;
+    font-size: variables.$links-size;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+
+.container {
+    color: variables.$bg-color;
+}
+
+.content h2 {
+    font-size: variables.$title-size;
+    font-weight: variables.$title-font;
+    line-height: 100%;
+}
+
+.content p {
+    line-height: 20px;
+    font-weight: variables.$main-font;
+    font-size: variables.$main-size;
+}
+
+.call {
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    font-weight: variables.$main-font;
+    font-size: variables.$main-size;
+    line-height: 100%;
+    letter-spacing: 5%;
+    text-align: center;
+    background-color: variables.$button-color;
+    color: variables.$bg-color;
+}
+
+.container-goods {
+    background-color: variables.$bg-color;
+}
+
+.content-goods {
+    background-color: variables.$bg-color-goods;
+}
+
+.title-main-goods {
+    font-family: Roboto;
+    font-weight: variables.$title-font;
+    font-size: variables.$title-goods;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.text-goods {
+    padding-top: 20px;
+}
+
+.title-goods {
+    padding-top: 20px;
+    font-family: Roboto;
+    font-weight: variables.$content-font;
+    font-size: variables.$button-text-size;
+    line-height: 100%;
+    letter-spacing: 5%;
+}
+
+.button-goods {
+    margin-top: 20px;
+    background-color: variables.$button-color;
+    border: variables.$button-color;
+    border-radius: 40px;
+    width: 130px;
+    height: 35px;
+    color: variables.$text-color;
+}
+
+.content-subscribe {
+    background-color: variables.$bg-color-subscribe;
+}
+
+.title-subscribe {
+    font-size: variables.$title-subscribe;
+    font-weight: variables.$title-font;
+    padding-top: 35px;
+    font-family: Roboto;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: variables.$text-color;
+
+}
+
+.text-subscribe {
+    color: variables.$text-color;
+    font-size: variables.$main-size;
+}
+
+.input-subscribe:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.input-subscribe {
+    border-radius: 30px;
+    border-color: variables.$bc;
+    width: 225px;
+    height: 35px;
+    font-size: variables.$main-size;
+    font-family: Roboto;
+    font-weight: variables.$main-font;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.call-action {
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    background-color: variables.$button-color;
+    color: variables.$text-color;
+}
+
+.container-impuls {
+    background-color: variables.$bg-color;
+}
+
+.content-impuls {
+    background-color: variables.$bg-color-impuls;
+    border: 1px solid variables.$bc-impuls;
+    border-top: none;
+    border-left: none;
+}
+

@@ -1,0 +1,178 @@
+@use "variables";
+@use './mixins.scss';
+
+.container__logo, .container__contacts, .geometry-goods, .content-goods, .title-geometry, .container-impuls, .background-footer, .container-block, .social-icons, .rights-footer{
+    @include mixins.layout;
+}
+
+.container__header, .icon, .main-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.container-block, .background-footer, .geometry-goods{
+    display: flex;
+    gap: 30px;
+}
+
+.container__header {
+    gap: 30px;
+}
+
+.logo, .container__header, .container__contacts, .subscribe-layout, .container-impuls, .social-icons, .rights-footer{
+    display: flex;
+}
+
+.logo, .icon{
+    align-items: center;
+}
+
+.container__logo, .geometry-contacts{
+    margin-top: 20px;
+}
+
+.container__contacts {
+    justify-content: end;
+}
+
+.main-nav, .container__contacts {
+    margin-top: 4.5px;
+    gap: 40px;
+}
+
+.content-goods, .container-impuls, .content-impuls {
+    text-align: center;
+}
+
+.background {
+    padding-top: 30px;
+    position: relative;
+}
+
+.background__img {
+    width: 100%;
+}
+
+.container-image {
+    position: absolute;
+    bottom: 18vh; 
+    left: 21vw;
+    max-width: 308px;
+}
+
+.text-main {
+    padding-top: 50px;
+}
+
+.call { 
+    margin-top: 50px;
+}
+
+.title-main-goods {
+    padding-top: 80px;
+    padding-bottom: 38px;
+}
+
+
+.content-goods {
+    margin-top: 38px;
+}
+
+.img-goods {
+    padding-top: 25px;
+}
+
+.button-goods {
+    margin-bottom: 25px;
+}
+
+.subscribe-layout {
+    gap: 90px;
+    margin-top: 34px;
+}
+
+.img-subscribe {
+    width: 140px;
+    height: 140px;
+    margin-top: -100px;
+}
+
+.content-subscribe {
+    margin-top: 100px;
+    width: 497px;
+    height: 212px;
+    padding-left: 40px;
+    margin-bottom: 35px;
+}
+
+.text-subscribe {
+    margin-top: 25px;
+    line-height: 141%;
+}
+
+.img-subscribe-bus {
+    width: 188,67px;
+    min-height: 100px;
+    margin-top: -100px;
+}
+
+.container-impuls {
+    justify-content: space-between;
+}
+
+.content-impuls {
+    padding: 35px;
+    padding-left: 60px;
+    padding-right: 69px;
+}
+
+.main-container {
+    height: 358px;
+    top: 100px;
+}
+
+.container-footer {
+    margin-top: 80px;
+}
+
+.title-footer {
+    padding-top: 60px;
+    padding-bottom: 47px;
+    display: inline-block;
+    width: 255px;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+}
+
+.content-footer {
+    padding-bottom: 60px;
+}
+
+.geometry-links {
+    padding-bottom: 8px;
+}
+
+.social-icons {
+    gap: 20px;
+    padding-top: 97px;
+}
+
+.icon {
+    width: 45px;
+    border-radius: 50px; 
+}
+
+.rights-footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 595px;
+}
+
+.rights-background {
+    margin-top: 63px;
+}
+
+.text-footer {
+    display: inline-block;
+}
+
